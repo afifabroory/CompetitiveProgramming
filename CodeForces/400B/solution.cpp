@@ -5,8 +5,7 @@ using namespace std;
 
 void solve(string tabel[], short n, short m) {
     set<short> totalMove;
-    short g_pos , s_pos;
-    short numberOfMove, distance; 
+    short g_pos , s_pos, numberOfMove, distance; 
     string cell;
     
     for (short i = 0; i < n; ++i) {
