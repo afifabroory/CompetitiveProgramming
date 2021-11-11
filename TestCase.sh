@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# This code from https://github.com/GermainZH/test-case-tool
+# There are some changes in this code!
+
 #Colours
 red='\u001b[1;91m'
 green='\u001b[1;92m'
@@ -21,14 +24,6 @@ then
 	exit 1;
 fi
 
-OPTIND=$((OPTIND+1))
-while getopts t: name
-do
-    case $name in
-    t)    timeLimit=${OPTARG};;
-    esac
-done
-
 #Check filetype
 if [ "${1##*.}" == 'cpp' ]
 then
@@ -48,13 +43,28 @@ else
 	exit 2;
 fi
 
-#Exit script cleanly
-trap "{ rm -f feedback a.out r.out r.check $baseName.class Main.class; }" SIGTERM SIGQUIT SIGINT EXIT
+OPTIND=$((OPTIND+1))
+clean=1
+while getopts t:ks:f: arg
+do
+    case $arg in
+    t)    timeLimit=${OPTARG};;
+	k)	  clean=0;;	# Keep compiled code.
+	s)    echo "STRESS TEST SOON! ${OPTARG}";;
+	f) 	  flags=${OPTARG};;
+    esac
+done
+
+if [ $clean == 1 ]
+then
+	#Exit script cleanly
+	trap "{ rm -f feedback a.out r.out r.check $baseName.class Main.class; }" SIGTERM SIGQUIT SIGINT EXIT
+fi
 
 #Header output
 echo -e "${magenta}-----------------------------------------------------"
 echo -e "      ${magenta}+===---${cyan}Problem Name: $baseName${magenta}---===+"
-echo -e "      ${magenta}+===---${cyan}Time Limit: $timeLimit sec${magenta}---===+"
+echo -e "      ${magenta}+===---${cyan}Time Limit: $timeLimit s${magenta}---===+"
 echo -e "${magenta}-----------------------------------------------------"
 
 
@@ -70,7 +80,8 @@ then
 fi
 
 #Run for all files of format baseName.*.in and check baseName.*.out
-echo -e "${cyan}[+] Running Test Cases\n"
+echo -e "${cyan}[+] Running Test Cases"
+echo -e "${cyan}[!] Time calculation in the script are not accurate!\n"
 
 acceptedCount=0
 
@@ -81,7 +92,7 @@ do
 		echo -e "${magenta}[+] No input files located"
 		exit 1;
 	fi
-	totalCount=$((totalCount+1))
+
 	start=
 	end=
 	if [ "$flags" == "$java_flags" ]
@@ -93,38 +104,41 @@ do
 	else
 		start=`date +%s%N`
 		timeout ${timeLimit}s ./a.out < ${i} > r.out
-		end=`date +%s%N`
 		exitCode=$?
+		end=`date +%s%N`
 	fi
 
 	time="$(($end - $start))"
-	constraint=`awk "BEGIN {x=$timeLimit; y=1000000000; z=x*y; print z}"`
-
-	echo "`awk "BEGIN {x=$constraint; y=$time; z=(x<y); print z}"`"
-	echo "$exitCode"
-	echo "$constraint"
 	
-	if [ "`awk "BEGIN {x=$constraint; y=$time; z=(x<y); print z}"`" == 1 ]
+	testCase=${i%.in}
+	printf "${white}Checking Test Case #${testCase/"${baseName}".}:" 
+	if [ $exitCode == 124 ]
 	then
-		echo -e "${white}Checking ${i%.in}: \n > ${red}[TLE] [$time ns] Time Limit Exceeded `awk  "BEGIN {x=$timeLimit; y=1000000000; z=x*y; print z}"` ns"
+		printf "\n > ${red}[TLE] \e[91m[%'.2f ns]\e[0m" $time 
+		printf " ${white}Time Limit Exceeded %'.2f ns\n" `awk  "BEGIN {x=$timeLimit; y=1000000000; z=x*y; print z}"` 
+		break
 	elif [ $exitCode != 0 ]
 	then
-		echo -e "${white}Checking ${i%.in}:   ${red}[RTE] [$time ns] Runtime Error"
-	else
+		echo -e " ${red}[RTE] [$time ns] Runtime Error"
+		break
+	else 
 		sdiff -w55 --strip-trailing-cr ${i%.in}.out r.out > r.check
 		if [ $? != 0 ]
 		then
-			echo -e "${white}Checking ${i%.in}:   ${red}[WA] [$time ns] Wrong Answer"
+			echo -e " ${red}[WA] [$time ns] Wrong Answer\n"
 			echo -e "${cyan}[Expected Output]               [Generated Output]"
 			echo -e "${red}-----------------------------------------------------"
 			cat r.check
 			echo -e "${red}-----------------------------------------------------"
+			break
 		else
 			acceptedCount=$((acceptedCount+1))
-			echo -e "${white}Checking ${i%.in}:   ${green}[AC] [$time ns] Accepted"
+			printf " ${green}[AC] [%'.2f ns] Accepted\n" $time
 		fi
 	fi
 done
 
-echo -e
-echo -e "${white}Accepted $acceptedCount / $totalCount"
+totalCount=( $baseName*.in )
+
+echo -e ""
+echo -e "${white}Accepted $acceptedCount / ${#totalCount[@]}"
