@@ -3,25 +3,20 @@
 
 using namespace std;
 
-void solve(unsigned int vN, unsigned int eM) {
-    unsigned int index = 0; 
+void solve(int vN, int eM) {
+    for (int i = 1; i < vN; i++) {
+        cout << i << ' ' << i + 1 << '\n';
+    }
+    
+    eM -= (vN-1);
 
-    unsigned i = 1, j = 2;
-    unsigned short c = 2;
-    while (eM--) {        
-        if (i%vN == 0) i = 1;
-        if (j%(vN+1) == 0) {
-            c++;
-            j = c;
+    int i = 3;
+    while (eM > 0) {
+        for (int j = 1; j < i-1 && eM > 0; j++) {
+            cout << j << ' ' << i << '\n';
+            eM--;
         }
-
-        cout << i << ' ' << j << '\n';
-        if (i == j) {
-            cout << "Self loop\n";
-            cin >> c;
-            break;
-        }
-        i++; j++;
+        i++; 
     }
 }
 
@@ -41,6 +36,7 @@ int main() {
         eM = (vN-1) + ( rand() % ( min((vN*(vN-1)/2), 100000) - (vN-1) + 1 ) );
         cout << "TEST " << vN << " " << eM << "\n";
         solve(vN, eM);
+        cin >> vN;
     }
 
     return 0;
