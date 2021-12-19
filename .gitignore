@@ -3,3 +3,4 @@
 *.*.in
 *.*.out
 .fuse_*
+*.zip
