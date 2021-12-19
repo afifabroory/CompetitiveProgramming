@@ -10,7 +10,7 @@ def scrape(problem_code):
     f = open('output_ac.csv', 'w')
 
     while (counter < totalPage):
-        URL = 'https://www.codechef.com/PRIME1/status/{0}?page={1}sort_by=All&sorting_order=asc&language=44&status=15&handle=&Submit=GO'.format(problem_code, counter)
+        URL = 'https://www.codechef.com/MINMANH/status/{0}?page={1}sort_by=All&sorting_order=asc&language=44&status=15&handle=&Submit=GO'.format(problem_code, counter)
         r = requests.get(URL)
         soup = bs.BeautifulSoup(r.content, 'html.parser')
         if inital:

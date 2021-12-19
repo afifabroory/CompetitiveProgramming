@@ -1,0 +1,43 @@
+#include <iostream>
+#include <cmath>
+#include <utility>
+
+using namespace std;
+
+void solve(int n, pair<int, int> point_s[], int m, pair<int, int> point_t[]) {
+    int smallestDistance, diff;
+    for (int i = 0; i < m; i++) {
+        smallestDistance = abs(point_s[0].first - point_t[i].first) + abs(point_s[0].second - point_t[i].second);
+        for (int j = 1; j < n; j++) {
+            diff = abs(point_s[j].first - point_t[i].first) + abs(point_s[j].second - point_t[i].second);
+            if (smallestDistance > diff) {
+                smallestDistance = diff;
+            }
+        }
+
+        cout << smallestDistance << '\n';
+    }
+}
+
+int main() {
+    unsigned n, m;
+    int x, y;
+
+    cin >> n >> m;
+
+    pair<int, int> point_s[n];
+    for (int i = 0; i < n; i++) {
+        cin >> x >> y;
+        point_s[i] = make_pair(x,y);
+    }
+
+    pair<int, int> point_t[m];
+    for (int i = 0; i < m; i++) {
+        cin >> x >> y;
+        point_t[i] = make_pair(x,y);
+    }
+
+    solve(n, point_s, m, point_t);
+
+    return 0;
+}

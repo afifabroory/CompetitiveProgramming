@@ -1,0 +1,119 @@
+#include <iostream>
+#include <cmath>
+#include <cassert>
+#include <algorithm>
+
+using namespace std;
+
+struct point {
+    int x, y;
+};
+
+bool sortFunctionY (point i, point j) { return i.y <= j.y; }
+bool sortFunctionX (point i, point j) { return i.x <= j.x; }
+
+int distance(point i, point j) {
+    return abs(i.x - j.x) + abs(i.y - j.y); 
+}
+
+// Print array of points
+void printArray(point arr[], int n) {
+    for (int i = 0; i < n; i++) {
+        cout << "Index of " << i << " " << arr[i].x << " " << arr[i].y << endl;
+    }
+}
+
+int bruteForce(point point_sX[], point point_t, int n) {
+    int smallest = distance(point_sX[0], point_t);
+    assert(smallest > -1);
+    for (int i = 1; i < n; i++) {
+        if (smallest > distance(point_sX[i], point_t)) {
+            smallest = distance(point_sX[i], point_t);
+            assert(smallest > -1);
+        }
+    }
+    
+    return smallest;
+}
+
+int divide(point point_sX[], point point_t, int start, int end) {
+
+    // If there is two point left then calculate distance.
+    if (abs(end) <= 3) {
+        return bruteForce(point_sX, point_t, abs(end));
+    } else {
+        int minL = divide(point_sX, point_t, 0, end/2);
+        int minR = divide(point_sX+(end/2)-1, point_t, 0, end/2+1);
+
+        assert(minL > -1);
+        assert(minR > -1);
+
+        if (minL > minR) return minR;
+        else return minL;
+    }
+}
+
+void solve(int size, point point_sX[], point point_sY[], int m, point point_t[]) {
+    int mid, smallestX, smallestY;
+
+    for (int i = 0; i < m; i++) {
+        mid = size/2;
+        
+        if (size <= 3) {
+            smallestX = bruteForce(point_sX, point_t[i], size); 
+            smallestY = bruteForce(point_sY, point_t[i], size); 
+
+        } else {
+            int smallestXL = divide(point_sX, point_t[i], 0, mid);
+            int smallestXR = divide(point_sX+mid, point_t[i], 0, size-mid+1);
+
+            int smallestYL = divide(point_sY, point_t[i], 0, mid);
+            int smallestYR = divide(point_sY+mid, point_t[i], 0, size-mid+1);
+
+            if (smallestXL < smallestXR) smallestX = smallestXL;
+            else smallestX = smallestXR;
+
+            if (smallestYL < smallestYR) smallestY = smallestYL;
+            else smallestY = smallestYR;
+        }
+
+        if (smallestX < smallestY) cout << smallestX << '\n';
+        else cout << smallestY << '\n';
+    }
+}
+
+int main() {
+    unsigned n, m;
+    cin >> n >> m;
+
+    int x, y;
+    point point_sX[n]; point point_sY[n];
+    for (int i = 0; i < n; i++) {
+        cin >> x >> y;
+
+        struct point newPoint;
+        newPoint.x = x;
+        newPoint.y = y;
+
+        point_sX[i] = newPoint;
+        point_sY[i] = newPoint;
+    }
+
+    sort(point_sX, point_sX+n, sortFunctionX);
+    sort(point_sY, point_sY+n, sortFunctionY);
+
+    point point_t[m];
+    for (int i = 0; i < m; i++) {
+        cin >> x >> y;
+        
+        struct point newPoint;
+        newPoint.x = x;
+        newPoint.y = y;
+
+        point_t[i] = newPoint;
+    }
+
+    solve(n, point_sX, point_sY, m, point_t);
+
+    return 0;
+}

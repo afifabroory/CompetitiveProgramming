@@ -1,0 +1,1945 @@
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+Index of 3 -24 -61
+Index of 4 -24 -28
+Index of 5 -32 -29
+Index of 6 -38 -98
+Index of 7 -44 -71
+Index of 8 -44 -79
+Index of 9 -52 -65
+Index of 10 -56 -42
+Index of 11 -56 -12
+Index of 12 -56 -69
+Index of 13 -68 -11
+Index of 14 -68 -70
+Index of 15 -72 -77
+Index of 16 -73 -70
+Index of 17 -79 -18
+Index of 18 -81 -25
+Index of 19 -81 -28
+Index of 20 -97 -97
+Index of 21 -99 -20
+Index of 22 -1273778888 21909
+
+
+DEBUG (solve): 0 10 21
+DEBUG (divide)0 10
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+Index of 3 -24 -61
+Index of 4 -24 -28
+Index of 5 -32 -29
+Index of 6 -38 -98
+Index of 7 -44 -71
+Index of 8 -44 -79
+Index of 9 -52 -65
+Index of 10 -56 -42
+
+
+DEBUG (divide)0 5
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+Index of 3 -24 -61
+Index of 4 -24 -28
+Index of 5 -32 -29
+
+
+DEBUG (divide)0 2
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+
+
+DEBUG (Brute Force) 56
+DEBUG (divide)0 2
+Index of 0 -24 -61
+Index of 1 -24 -28
+Index of 2 -32 -29
+
+
+DEBUG (Brute Force) 36
+DEBUG else: 56 36
+DEBUG (divide)0 5
+Index of 0 -38 -98
+Index of 1 -44 -71
+Index of 2 -44 -79
+Index of 3 -52 -65
+Index of 4 -56 -42
+Index of 5 -56 -12
+
+
+DEBUG (divide)0 2
+Index of 0 -38 -98
+Index of 1 -44 -71
+Index of 2 -44 -79
+
+
+DEBUG (Brute Force) 26
+DEBUG (divide)0 2
+Index of 0 -52 -65
+Index of 1 -56 -42
+Index of 2 -56 -12
+
+
+DEBUG (Brute Force) 15
+DEBUG else: 26 15
+DEBUG else: 36 15
+DEBUG (divide)0 10
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+Index of 3 -68 -70
+Index of 4 -72 -77
+Index of 5 -73 -70
+Index of 6 -79 -18
+Index of 7 -81 -25
+Index of 8 -81 -28
+Index of 9 -97 -97
+Index of 10 -99 -20
+
+
+DEBUG (divide)0 5
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+Index of 3 -68 -70
+Index of 4 -72 -77
+Index of 5 -73 -70
+
+
+DEBUG (divide)0 2
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+
+
+DEBUG (Brute Force) 24
+DEBUG (divide)0 2
+Index of 0 -68 -70
+Index of 1 -72 -77
+Index of 2 -73 -70
+
+
+DEBUG (Brute Force) 37
+DEBUG else: 24 37
+DEBUG (divide)0 5
+Index of 0 -79 -18
+Index of 1 -81 -25
+Index of 2 -81 -28
+Index of 3 -97 -97
+Index of 4 -99 -20
+Index of 5 -1273778888 21909
+
+
+DEBUG (divide)0 2
+Index of 0 -79 -18
+Index of 1 -81 -25
+Index of 2 -81 -28
+
+
+DEBUG (Brute Force) 54
+DEBUG (divide)0 2
+Index of 0 -97 -97
+Index of 1 -99 -20
+Index of 2 -1273778888 21909
+
+
+DEBUG (Brute Force) 80
+DEBUG else: 54 80
+DEBUG else: 24 54
+DEBUG else (sovle): 15 24
+DEBUG (solve): 0 10 21
+DEBUG (divide)0 10
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+Index of 3 -24 -61
+Index of 4 -24 -28
+Index of 5 -32 -29
+Index of 6 -38 -98
+Index of 7 -44 -71
+Index of 8 -44 -79
+Index of 9 -52 -65
+Index of 10 -56 -42
+
+
+DEBUG (divide)0 5
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+Index of 3 -24 -61
+Index of 4 -24 -28
+Index of 5 -32 -29
+
+
+DEBUG (divide)0 2
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+
+
+DEBUG (Brute Force) 101
+DEBUG (divide)0 2
+Index of 0 -24 -61
+Index of 1 -24 -28
+Index of 2 -32 -29
+
+
+DEBUG (Brute Force) 81
+DEBUG else: 101 81
+DEBUG (divide)0 5
+Index of 0 -38 -98
+Index of 1 -44 -71
+Index of 2 -44 -79
+Index of 3 -52 -65
+Index of 4 -56 -42
+Index of 5 -56 -12
+
+
+DEBUG (divide)0 2
+Index of 0 -38 -98
+Index of 1 -44 -71
+Index of 2 -44 -79
+
+
+DEBUG (Brute Force) 71
+DEBUG (divide)0 2
+Index of 0 -52 -65
+Index of 1 -56 -42
+Index of 2 -56 -12
+
+
+DEBUG (Brute Force) 56
+DEBUG else: 71 56
+DEBUG else: 81 56
+DEBUG (divide)0 10
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+Index of 3 -68 -70
+Index of 4 -72 -77
+Index of 5 -73 -70
+Index of 6 -79 -18
+Index of 7 -81 -25
+Index of 8 -81 -28
+Index of 9 -97 -97
+Index of 10 -99 -20
+
+
+DEBUG (divide)0 5
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+Index of 3 -68 -70
+Index of 4 -72 -77
+Index of 5 -73 -70
+
+
+DEBUG (divide)0 2
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+
+
+DEBUG (Brute Force) 57
+DEBUG (divide)0 2
+Index of 0 -68 -70
+Index of 1 -72 -77
+Index of 2 -73 -70
+
+
+DEBUG (Brute Force) 41
+DEBUG else: 57 41
+DEBUG (divide)0 5
+Index of 0 -79 -18
+Index of 1 -81 -25
+Index of 2 -81 -28
+Index of 3 -97 -97
+Index of 4 -99 -20
+Index of 5 -1273778888 21909
+
+
+DEBUG (divide)0 2
+Index of 0 -79 -18
+Index of 1 -81 -25
+Index of 2 -81 -28
+
+
+DEBUG (Brute Force) 45
+DEBUG (divide)0 2
+Index of 0 -97 -97
+Index of 1 -99 -20
+Index of 2 -1273778888 21909
+
+
+DEBUG (Brute Force) 35
+DEBUG else: 45 35
+DEBUG else: 41 35
+DEBUG else (sovle): 56 35
+DEBUG (solve): 0 10 21
+DEBUG (divide)0 10
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+Index of 3 -24 -61
+Index of 4 -24 -28
+Index of 5 -32 -29
+Index of 6 -38 -98
+Index of 7 -44 -71
+Index of 8 -44 -79
+Index of 9 -52 -65
+Index of 10 -56 -42
+
+
+DEBUG (divide)0 5
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+Index of 3 -24 -61
+Index of 4 -24 -28
+Index of 5 -32 -29
+
+
+DEBUG (divide)0 2
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+
+
+DEBUG (Brute Force) 59
+DEBUG (divide)0 2
+Index of 0 -24 -61
+Index of 1 -24 -28
+Index of 2 -32 -29
+
+
+DEBUG (Brute Force) 77
+DEBUG else: 59 77
+DEBUG (divide)0 5
+Index of 0 -38 -98
+Index of 1 -44 -71
+Index of 2 -44 -79
+Index of 3 -52 -65
+Index of 4 -56 -42
+Index of 5 -56 -12
+
+
+DEBUG (divide)0 2
+Index of 0 -38 -98
+Index of 1 -44 -71
+Index of 2 -44 -79
+
+
+DEBUG (Brute Force) 26
+DEBUG (divide)0 2
+Index of 0 -52 -65
+Index of 1 -56 -42
+Index of 2 -56 -12
+
+
+DEBUG (Brute Force) 45
+DEBUG else: 26 45
+DEBUG else: 59 26
+DEBUG (divide)0 10
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+Index of 3 -68 -70
+Index of 4 -72 -77
+Index of 5 -73 -70
+Index of 6 -79 -18
+Index of 7 -81 -25
+Index of 8 -81 -28
+Index of 9 -97 -97
+Index of 10 -99 -20
+
+
+DEBUG (divide)0 5
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+Index of 3 -68 -70
+Index of 4 -72 -77
+Index of 5 -73 -70
+
+
+DEBUG (divide)0 2
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+
+
+DEBUG (Brute Force) 37
+DEBUG (divide)0 2
+Index of 0 -68 -70
+Index of 1 -72 -77
+Index of 2 -73 -70
+
+
+DEBUG (Brute Force) 31
+DEBUG else: 37 31
+DEBUG (divide)0 5
+Index of 0 -79 -18
+Index of 1 -81 -25
+Index of 2 -81 -28
+Index of 3 -97 -97
+Index of 4 -99 -20
+Index of 5 -1273778888 21909
+
+
+DEBUG (divide)0 2
+Index of 0 -79 -18
+Index of 1 -81 -25
+Index of 2 -81 -28
+
+
+DEBUG (Brute Force) 89
+DEBUG (divide)0 2
+Index of 0 -97 -97
+Index of 1 -99 -20
+Index of 2 -1273778888 21909
+
+
+DEBUG (Brute Force) 36
+DEBUG else: 89 36
+DEBUG else: 31 36
+DEBUG else (sovle): 26 31
+DEBUG (solve): 0 10 21
+DEBUG (divide)0 10
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+Index of 3 -24 -61
+Index of 4 -24 -28
+Index of 5 -32 -29
+Index of 6 -38 -98
+Index of 7 -44 -71
+Index of 8 -44 -79
+Index of 9 -52 -65
+Index of 10 -56 -42
+
+
+DEBUG (divide)0 5
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+Index of 3 -24 -61
+Index of 4 -24 -28
+Index of 5 -32 -29
+
+
+DEBUG (divide)0 2
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+
+
+DEBUG (Brute Force) 6
+DEBUG (divide)0 2
+Index of 0 -24 -61
+Index of 1 -24 -28
+Index of 2 -32 -29
+
+
+DEBUG (Brute Force) 26
+DEBUG else: 6 26
+DEBUG (divide)0 5
+Index of 0 -38 -98
+Index of 1 -44 -71
+Index of 2 -44 -79
+Index of 3 -52 -65
+Index of 4 -56 -42
+Index of 5 -56 -12
+
+
+DEBUG (divide)0 2
+Index of 0 -38 -98
+Index of 1 -44 -71
+Index of 2 -44 -79
+
+
+DEBUG (Brute Force) 28
+DEBUG (divide)0 2
+Index of 0 -52 -65
+Index of 1 -56 -42
+Index of 2 -56 -12
+
+
+DEBUG (Brute Force) 50
+DEBUG else: 28 50
+DEBUG else: 6 28
+DEBUG (divide)0 10
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+Index of 3 -68 -70
+Index of 4 -72 -77
+Index of 5 -73 -70
+Index of 6 -79 -18
+Index of 7 -81 -25
+Index of 8 -81 -28
+Index of 9 -97 -97
+Index of 10 -99 -20
+
+
+DEBUG (divide)0 5
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+Index of 3 -68 -70
+Index of 4 -72 -77
+Index of 5 -73 -70
+
+
+DEBUG (divide)0 2
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+
+
+DEBUG (Brute Force) 50
+DEBUG (divide)0 2
+Index of 0 -68 -70
+Index of 1 -72 -77
+Index of 2 -73 -70
+
+
+DEBUG (Brute Force) 58
+DEBUG else: 50 58
+DEBUG (divide)0 5
+Index of 0 -79 -18
+Index of 1 -81 -25
+Index of 2 -81 -28
+Index of 3 -97 -97
+Index of 4 -99 -20
+Index of 5 -1273778888 21909
+
+
+DEBUG (divide)0 2
+Index of 0 -79 -18
+Index of 1 -81 -25
+Index of 2 -81 -28
+
+
+DEBUG (Brute Force) 116
+DEBUG (divide)0 2
+Index of 0 -97 -97
+Index of 1 -99 -20
+Index of 2 -1273778888 21909
+
+
+DEBUG (Brute Force) 89
+DEBUG else: 116 89
+DEBUG else: 50 89
+DEBUG else (sovle): 6 50
+DEBUG (solve): 0 10 21
+DEBUG (divide)0 10
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+Index of 3 -24 -61
+Index of 4 -24 -28
+Index of 5 -32 -29
+Index of 6 -38 -98
+Index of 7 -44 -71
+Index of 8 -44 -79
+Index of 9 -52 -65
+Index of 10 -56 -42
+
+
+DEBUG (divide)0 5
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+Index of 3 -24 -61
+Index of 4 -24 -28
+Index of 5 -32 -29
+
+
+DEBUG (divide)0 2
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+
+
+DEBUG (Brute Force) 83
+DEBUG (divide)0 2
+Index of 0 -24 -61
+Index of 1 -24 -28
+Index of 2 -32 -29
+
+
+DEBUG (Brute Force) 63
+DEBUG else: 83 63
+DEBUG (divide)0 5
+Index of 0 -38 -98
+Index of 1 -44 -71
+Index of 2 -44 -79
+Index of 3 -52 -65
+Index of 4 -56 -42
+Index of 5 -56 -12
+
+
+DEBUG (divide)0 2
+Index of 0 -38 -98
+Index of 1 -44 -71
+Index of 2 -44 -79
+
+
+DEBUG (Brute Force) 53
+DEBUG (divide)0 2
+Index of 0 -52 -65
+Index of 1 -56 -42
+Index of 2 -56 -12
+
+
+DEBUG (Brute Force) 30
+DEBUG else: 53 30
+DEBUG else: 63 30
+DEBUG (divide)0 10
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+Index of 3 -68 -70
+Index of 4 -72 -77
+Index of 5 -73 -70
+Index of 6 -79 -18
+Index of 7 -81 -25
+Index of 8 -81 -28
+Index of 9 -97 -97
+Index of 10 -99 -20
+
+
+DEBUG (divide)0 5
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+Index of 3 -68 -70
+Index of 4 -72 -77
+Index of 5 -73 -70
+
+
+DEBUG (divide)0 2
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+
+
+DEBUG (Brute Force) 39
+DEBUG (divide)0 2
+Index of 0 -68 -70
+Index of 1 -72 -77
+Index of 2 -73 -70
+
+
+DEBUG (Brute Force) 23
+DEBUG else: 39 23
+DEBUG (divide)0 5
+Index of 0 -79 -18
+Index of 1 -81 -25
+Index of 2 -81 -28
+Index of 3 -97 -97
+Index of 4 -99 -20
+Index of 5 -1273778888 21909
+
+
+DEBUG (divide)0 2
+Index of 0 -79 -18
+Index of 1 -81 -25
+Index of 2 -81 -28
+
+
+DEBUG (Brute Force) 27
+DEBUG (divide)0 2
+Index of 0 -97 -97
+Index of 1 -99 -20
+Index of 2 -1273778888 21909
+
+
+DEBUG (Brute Force) 53
+DEBUG else: 27 53
+DEBUG else: 23 27
+DEBUG else (sovle): 30 23
+DEBUG (solve): 0 10 21
+DEBUG (divide)0 10
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+Index of 3 -24 -61
+Index of 4 -24 -28
+Index of 5 -32 -29
+Index of 6 -38 -98
+Index of 7 -44 -71
+Index of 8 -44 -79
+Index of 9 -52 -65
+Index of 10 -56 -42
+
+
+DEBUG (divide)0 5
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+Index of 3 -24 -61
+Index of 4 -24 -28
+Index of 5 -32 -29
+
+
+DEBUG (divide)0 2
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+
+
+DEBUG (Brute Force) 48
+DEBUG (divide)0 2
+Index of 0 -24 -61
+Index of 1 -24 -28
+Index of 2 -32 -29
+
+
+DEBUG (Brute Force) 46
+DEBUG else: 48 46
+DEBUG (divide)0 5
+Index of 0 -38 -98
+Index of 1 -44 -71
+Index of 2 -44 -79
+Index of 3 -52 -65
+Index of 4 -56 -42
+Index of 5 -56 -12
+
+
+DEBUG (divide)0 2
+Index of 0 -38 -98
+Index of 1 -44 -71
+Index of 2 -44 -79
+
+
+DEBUG (Brute Force) 18
+DEBUG (divide)0 2
+Index of 0 -52 -65
+Index of 1 -56 -42
+Index of 2 -56 -12
+
+
+DEBUG (Brute Force) 14
+DEBUG else: 18 14
+DEBUG else: 46 14
+DEBUG (divide)0 10
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+Index of 3 -68 -70
+Index of 4 -72 -77
+Index of 5 -73 -70
+Index of 6 -79 -18
+Index of 7 -81 -25
+Index of 8 -81 -28
+Index of 9 -97 -97
+Index of 10 -99 -20
+
+
+DEBUG (divide)0 5
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+Index of 3 -68 -70
+Index of 4 -72 -77
+Index of 5 -73 -70
+
+
+DEBUG (divide)0 2
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+
+
+DEBUG (Brute Force) 6
+DEBUG (divide)0 2
+Index of 0 -68 -70
+Index of 1 -72 -77
+Index of 2 -73 -70
+
+
+DEBUG (Brute Force) 7
+DEBUG else: 6 7
+DEBUG (divide)0 5
+Index of 0 -79 -18
+Index of 1 -81 -25
+Index of 2 -81 -28
+Index of 3 -97 -97
+Index of 4 -99 -20
+Index of 5 -1273778888 21909
+
+
+DEBUG (divide)0 2
+Index of 0 -79 -18
+Index of 1 -81 -25
+Index of 2 -81 -28
+
+
+DEBUG (Brute Force) 62
+DEBUG (divide)0 2
+Index of 0 -97 -97
+Index of 1 -99 -20
+Index of 2 -1273778888 21909
+
+
+DEBUG (Brute Force) 63
+DEBUG else: 62 63
+DEBUG else: 6 62
+DEBUG else (sovle): 14 6
+DEBUG (solve): 0 10 21
+DEBUG (divide)0 10
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+Index of 3 -24 -61
+Index of 4 -24 -28
+Index of 5 -32 -29
+Index of 6 -38 -98
+Index of 7 -44 -71
+Index of 8 -44 -79
+Index of 9 -52 -65
+Index of 10 -56 -42
+
+
+DEBUG (divide)0 5
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+Index of 3 -24 -61
+Index of 4 -24 -28
+Index of 5 -32 -29
+
+
+DEBUG (divide)0 2
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+
+
+DEBUG (Brute Force) 79
+DEBUG (divide)0 2
+Index of 0 -24 -61
+Index of 1 -24 -28
+Index of 2 -32 -29
+
+
+DEBUG (Brute Force) 39
+DEBUG else: 79 39
+DEBUG (divide)0 5
+Index of 0 -38 -98
+Index of 1 -44 -71
+Index of 2 -44 -79
+Index of 3 -52 -65
+Index of 4 -56 -42
+Index of 5 -56 -12
+
+
+DEBUG (divide)0 2
+Index of 0 -38 -98
+Index of 1 -44 -71
+Index of 2 -44 -79
+
+
+DEBUG (Brute Force) 67
+DEBUG (divide)0 2
+Index of 0 -52 -65
+Index of 1 -56 -42
+Index of 2 -56 -12
+
+
+DEBUG (Brute Force) 26
+DEBUG else: 67 26
+DEBUG else: 39 26
+DEBUG (divide)0 10
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+Index of 3 -68 -70
+Index of 4 -72 -77
+Index of 5 -73 -70
+Index of 6 -79 -18
+Index of 7 -81 -25
+Index of 8 -81 -28
+Index of 9 -97 -97
+Index of 10 -99 -20
+
+
+DEBUG (divide)0 5
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+Index of 3 -68 -70
+Index of 4 -72 -77
+Index of 5 -73 -70
+
+
+DEBUG (divide)0 2
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+
+
+DEBUG (Brute Force) 21
+DEBUG (divide)0 2
+Index of 0 -68 -70
+Index of 1 -72 -77
+Index of 2 -73 -70
+
+
+DEBUG (Brute Force) 42
+DEBUG else: 21 42
+DEBUG (divide)0 5
+Index of 0 -79 -18
+Index of 1 -81 -25
+Index of 2 -81 -28
+Index of 3 -97 -97
+Index of 4 -99 -20
+Index of 5 -1273778888 21909
+
+
+DEBUG (divide)0 2
+Index of 0 -79 -18
+Index of 1 -81 -25
+Index of 2 -81 -28
+
+
+DEBUG (Brute Force) 13
+DEBUG (divide)0 2
+Index of 0 -97 -97
+Index of 1 -99 -20
+Index of 2 -1273778888 21909
+
+
+DEBUG (Brute Force) 39
+DEBUG else: 13 39
+DEBUG else: 21 13
+DEBUG else (sovle): 26 13
+DEBUG (solve): 0 10 21
+DEBUG (divide)0 10
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+Index of 3 -24 -61
+Index of 4 -24 -28
+Index of 5 -32 -29
+Index of 6 -38 -98
+Index of 7 -44 -71
+Index of 8 -44 -79
+Index of 9 -52 -65
+Index of 10 -56 -42
+
+
+DEBUG (divide)0 5
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+Index of 3 -24 -61
+Index of 4 -24 -28
+Index of 5 -32 -29
+
+
+DEBUG (divide)0 2
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+
+
+DEBUG (Brute Force) 78
+DEBUG (divide)0 2
+Index of 0 -24 -61
+Index of 1 -24 -28
+Index of 2 -32 -29
+
+
+DEBUG (Brute Force) 72
+DEBUG else: 78 72
+DEBUG (divide)0 5
+Index of 0 -38 -98
+Index of 1 -44 -71
+Index of 2 -44 -79
+Index of 3 -52 -65
+Index of 4 -56 -42
+Index of 5 -56 -12
+
+
+DEBUG (divide)0 2
+Index of 0 -38 -98
+Index of 1 -44 -71
+Index of 2 -44 -79
+
+
+DEBUG (Brute Force) 48
+DEBUG (divide)0 2
+Index of 0 -52 -65
+Index of 1 -56 -42
+Index of 2 -56 -12
+
+
+DEBUG (Brute Force) 40
+DEBUG else: 48 40
+DEBUG else: 72 40
+DEBUG (divide)0 10
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+Index of 3 -68 -70
+Index of 4 -72 -77
+Index of 5 -73 -70
+Index of 6 -79 -18
+Index of 7 -81 -25
+Index of 8 -81 -28
+Index of 9 -97 -97
+Index of 10 -99 -20
+
+
+DEBUG (divide)0 5
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+Index of 3 -68 -70
+Index of 4 -72 -77
+Index of 5 -73 -70
+
+
+DEBUG (divide)0 2
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+
+
+DEBUG (Brute Force) 34
+DEBUG (divide)0 2
+Index of 0 -68 -70
+Index of 1 -72 -77
+Index of 2 -73 -70
+
+
+DEBUG (Brute Force) 18
+DEBUG else: 34 18
+DEBUG (divide)0 5
+Index of 0 -79 -18
+Index of 1 -81 -25
+Index of 2 -81 -28
+Index of 3 -97 -97
+Index of 4 -99 -20
+Index of 5 -1273778888 21909
+
+
+DEBUG (divide)0 2
+Index of 0 -79 -18
+Index of 1 -81 -25
+Index of 2 -81 -28
+
+
+DEBUG (Brute Force) 48
+DEBUG (divide)0 2
+Index of 0 -97 -97
+Index of 1 -99 -20
+Index of 2 -1273778888 21909
+
+
+DEBUG (Brute Force) 37
+DEBUG else: 48 37
+DEBUG else: 18 37
+DEBUG else (sovle): 40 18
+DEBUG (solve): 0 10 21
+DEBUG (divide)0 10
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+Index of 3 -24 -61
+Index of 4 -24 -28
+Index of 5 -32 -29
+Index of 6 -38 -98
+Index of 7 -44 -71
+Index of 8 -44 -79
+Index of 9 -52 -65
+Index of 10 -56 -42
+
+
+DEBUG (divide)0 5
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+Index of 3 -24 -61
+Index of 4 -24 -28
+Index of 5 -32 -29
+
+
+DEBUG (divide)0 2
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+
+
+DEBUG (Brute Force) 66
+DEBUG (divide)0 2
+Index of 0 -24 -61
+Index of 1 -24 -28
+Index of 2 -32 -29
+
+
+DEBUG (Brute Force) 84
+DEBUG else: 66 84
+DEBUG (divide)0 5
+Index of 0 -38 -98
+Index of 1 -44 -71
+Index of 2 -44 -79
+Index of 3 -52 -65
+Index of 4 -56 -42
+Index of 5 -56 -12
+
+
+DEBUG (divide)0 2
+Index of 0 -38 -98
+Index of 1 -44 -71
+Index of 2 -44 -79
+
+
+DEBUG (Brute Force) 41
+DEBUG (divide)0 2
+Index of 0 -52 -65
+Index of 1 -56 -42
+Index of 2 -56 -12
+
+
+DEBUG (Brute Force) 52
+DEBUG else: 41 52
+DEBUG else: 66 41
+DEBUG (divide)0 10
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+Index of 3 -68 -70
+Index of 4 -72 -77
+Index of 5 -73 -70
+Index of 6 -79 -18
+Index of 7 -81 -25
+Index of 8 -81 -28
+Index of 9 -97 -97
+Index of 10 -99 -20
+
+
+DEBUG (divide)0 5
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+Index of 3 -68 -70
+Index of 4 -72 -77
+Index of 5 -73 -70
+
+
+DEBUG (divide)0 2
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+
+
+DEBUG (Brute Force) 44
+DEBUG (divide)0 2
+Index of 0 -68 -70
+Index of 1 -72 -77
+Index of 2 -73 -70
+
+
+DEBUG (Brute Force) 20
+DEBUG else: 44 20
+DEBUG (divide)0 5
+Index of 0 -79 -18
+Index of 1 -81 -25
+Index of 2 -81 -28
+Index of 3 -97 -97
+Index of 4 -99 -20
+Index of 5 -1273778888 21909
+
+
+DEBUG (divide)0 2
+Index of 0 -79 -18
+Index of 1 -81 -25
+Index of 2 -81 -28
+
+
+DEBUG (Brute Force) 72
+DEBUG (divide)0 2
+Index of 0 -97 -97
+Index of 1 -99 -20
+Index of 2 -1273778888 21909
+
+
+DEBUG (Brute Force) 25
+DEBUG else: 72 25
+DEBUG else: 20 25
+DEBUG else (sovle): 41 20
+DEBUG (solve): 0 10 21
+DEBUG (divide)0 10
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+Index of 3 -24 -61
+Index of 4 -24 -28
+Index of 5 -32 -29
+Index of 6 -38 -98
+Index of 7 -44 -71
+Index of 8 -44 -79
+Index of 9 -52 -65
+Index of 10 -56 -42
+
+
+DEBUG (divide)0 5
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+Index of 3 -24 -61
+Index of 4 -24 -28
+Index of 5 -32 -29
+
+
+DEBUG (divide)0 2
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+
+
+DEBUG (Brute Force) 31
+DEBUG (divide)0 2
+Index of 0 -24 -61
+Index of 1 -24 -28
+Index of 2 -32 -29
+
+
+DEBUG (Brute Force) 26
+DEBUG else: 31 26
+DEBUG (divide)0 5
+Index of 0 -38 -98
+Index of 1 -44 -71
+Index of 2 -44 -79
+Index of 3 -52 -65
+Index of 4 -56 -42
+Index of 5 -56 -12
+
+
+DEBUG (divide)0 2
+Index of 0 -38 -98
+Index of 1 -44 -71
+Index of 2 -44 -79
+
+
+DEBUG (Brute Force) 56
+DEBUG (divide)0 2
+Index of 0 -52 -65
+Index of 1 -56 -42
+Index of 2 -56 -12
+
+
+DEBUG (Brute Force) 51
+DEBUG else: 56 51
+DEBUG else: 26 51
+DEBUG (divide)0 10
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+Index of 3 -68 -70
+Index of 4 -72 -77
+Index of 5 -73 -70
+Index of 6 -79 -18
+Index of 7 -81 -25
+Index of 8 -81 -28
+Index of 9 -97 -97
+Index of 10 -99 -20
+
+
+DEBUG (divide)0 5
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+Index of 3 -68 -70
+Index of 4 -72 -77
+Index of 5 -73 -70
+
+
+DEBUG (divide)0 2
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+
+
+DEBUG (Brute Force) 66
+DEBUG (divide)0 2
+Index of 0 -68 -70
+Index of 1 -72 -77
+Index of 2 -73 -70
+
+
+DEBUG (Brute Force) 79
+DEBUG else: 66 79
+DEBUG (divide)0 5
+Index of 0 -79 -18
+Index of 1 -81 -25
+Index of 2 -81 -28
+Index of 3 -97 -97
+Index of 4 -99 -20
+Index of 5 -1273778888 21909
+
+
+DEBUG (divide)0 2
+Index of 0 -79 -18
+Index of 1 -81 -25
+Index of 2 -81 -28
+
+
+DEBUG (Brute Force) 90
+DEBUG (divide)0 2
+Index of 0 -97 -97
+Index of 1 -99 -20
+Index of 2 -1273778888 21909
+
+
+DEBUG (Brute Force) 116
+DEBUG else: 90 116
+DEBUG else: 66 90
+DEBUG else (sovle): 26 66
+DEBUG (solve): 0 10 21
+DEBUG (divide)0 10
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+Index of 3 -24 -61
+Index of 4 -24 -28
+Index of 5 -32 -29
+Index of 6 -38 -98
+Index of 7 -44 -71
+Index of 8 -44 -79
+Index of 9 -52 -65
+Index of 10 -56 -42
+
+
+DEBUG (divide)0 5
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+Index of 3 -24 -61
+Index of 4 -24 -28
+Index of 5 -32 -29
+
+
+DEBUG (divide)0 2
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+
+
+DEBUG (Brute Force) 41
+DEBUG (divide)0 2
+Index of 0 -24 -61
+Index of 1 -24 -28
+Index of 2 -32 -29
+
+
+DEBUG (Brute Force) 41
+DEBUG else: 41 41
+DEBUG (divide)0 5
+Index of 0 -38 -98
+Index of 1 -44 -71
+Index of 2 -44 -79
+Index of 3 -52 -65
+Index of 4 -56 -42
+Index of 5 -56 -12
+
+
+DEBUG (divide)0 2
+Index of 0 -38 -98
+Index of 1 -44 -71
+Index of 2 -44 -79
+
+
+DEBUG (Brute Force) 11
+DEBUG (divide)0 2
+Index of 0 -52 -65
+Index of 1 -56 -42
+Index of 2 -56 -12
+
+
+DEBUG (Brute Force) 9
+DEBUG else: 11 9
+DEBUG else: 41 9
+DEBUG (divide)0 10
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+Index of 3 -68 -70
+Index of 4 -72 -77
+Index of 5 -73 -70
+Index of 6 -79 -18
+Index of 7 -81 -25
+Index of 8 -81 -28
+Index of 9 -97 -97
+Index of 10 -99 -20
+
+
+DEBUG (divide)0 5
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+Index of 3 -68 -70
+Index of 4 -72 -77
+Index of 5 -73 -70
+
+
+DEBUG (divide)0 2
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+
+
+DEBUG (Brute Force) 3
+DEBUG (divide)0 2
+Index of 0 -68 -70
+Index of 1 -72 -77
+Index of 2 -73 -70
+
+
+DEBUG (Brute Force) 14
+DEBUG else: 3 14
+DEBUG (divide)0 5
+Index of 0 -79 -18
+Index of 1 -81 -25
+Index of 2 -81 -28
+Index of 3 -97 -97
+Index of 4 -99 -20
+Index of 5 -1273778888 21909
+
+
+DEBUG (divide)0 2
+Index of 0 -79 -18
+Index of 1 -81 -25
+Index of 2 -81 -28
+
+
+DEBUG (Brute Force) 69
+DEBUG (divide)0 2
+Index of 0 -97 -97
+Index of 1 -99 -20
+Index of 2 -1273778888 21909
+
+
+DEBUG (Brute Force) 68
+DEBUG else: 69 68
+DEBUG else: 3 68
+DEBUG else (sovle): 9 3
+DEBUG (solve): 0 10 21
+DEBUG (divide)0 10
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+Index of 3 -24 -61
+Index of 4 -24 -28
+Index of 5 -32 -29
+Index of 6 -38 -98
+Index of 7 -44 -71
+Index of 8 -44 -79
+Index of 9 -52 -65
+Index of 10 -56 -42
+
+
+DEBUG (divide)0 5
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+Index of 3 -24 -61
+Index of 4 -24 -28
+Index of 5 -32 -29
+
+
+DEBUG (divide)0 2
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+
+
+DEBUG (Brute Force) 5
+DEBUG (divide)0 2
+Index of 0 -24 -61
+Index of 1 -24 -28
+Index of 2 -32 -29
+
+
+DEBUG (Brute Force) 23
+DEBUG else: 5 23
+DEBUG (divide)0 5
+Index of 0 -38 -98
+Index of 1 -44 -71
+Index of 2 -44 -79
+Index of 3 -52 -65
+Index of 4 -56 -42
+Index of 5 -56 -12
+
+
+DEBUG (divide)0 2
+Index of 0 -38 -98
+Index of 1 -44 -71
+Index of 2 -44 -79
+
+
+DEBUG (Brute Force) 17
+DEBUG (divide)0 2
+Index of 0 -52 -65
+Index of 1 -56 -42
+Index of 2 -56 -12
+
+
+DEBUG (Brute Force) 39
+DEBUG else: 17 39
+DEBUG else: 5 17
+DEBUG (divide)0 10
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+Index of 3 -68 -70
+Index of 4 -72 -77
+Index of 5 -73 -70
+Index of 6 -79 -18
+Index of 7 -81 -25
+Index of 8 -81 -28
+Index of 9 -97 -97
+Index of 10 -99 -20
+
+
+DEBUG (divide)0 5
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+Index of 3 -68 -70
+Index of 4 -72 -77
+Index of 5 -73 -70
+
+
+DEBUG (divide)0 2
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+
+
+DEBUG (Brute Force) 39
+DEBUG (divide)0 2
+Index of 0 -68 -70
+Index of 1 -72 -77
+Index of 2 -73 -70
+
+
+DEBUG (Brute Force) 47
+DEBUG else: 39 47
+DEBUG (divide)0 5
+Index of 0 -79 -18
+Index of 1 -81 -25
+Index of 2 -81 -28
+Index of 3 -97 -97
+Index of 4 -99 -20
+Index of 5 -1273778888 21909
+
+
+DEBUG (divide)0 2
+Index of 0 -79 -18
+Index of 1 -81 -25
+Index of 2 -81 -28
+
+
+DEBUG (Brute Force) 105
+DEBUG (divide)0 2
+Index of 0 -97 -97
+Index of 1 -99 -20
+Index of 2 -1273778888 21909
+
+
+DEBUG (Brute Force) 86
+DEBUG else: 105 86
+DEBUG else: 39 86
+DEBUG else (sovle): 5 39
+DEBUG (solve): 0 10 21
+DEBUG (divide)0 10
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+Index of 3 -24 -61
+Index of 4 -24 -28
+Index of 5 -32 -29
+Index of 6 -38 -98
+Index of 7 -44 -71
+Index of 8 -44 -79
+Index of 9 -52 -65
+Index of 10 -56 -42
+
+
+DEBUG (divide)0 5
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+Index of 3 -24 -61
+Index of 4 -24 -28
+Index of 5 -32 -29
+
+
+DEBUG (divide)0 2
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+
+
+DEBUG (Brute Force) 23
+DEBUG (divide)0 2
+Index of 0 -24 -61
+Index of 1 -24 -28
+Index of 2 -32 -29
+
+
+DEBUG (Brute Force) 30
+DEBUG else: 23 30
+DEBUG (divide)0 5
+Index of 0 -38 -98
+Index of 1 -44 -71
+Index of 2 -44 -79
+Index of 3 -52 -65
+Index of 4 -56 -42
+Index of 5 -56 -12
+
+
+DEBUG (divide)0 2
+Index of 0 -38 -98
+Index of 1 -44 -71
+Index of 2 -44 -79
+
+
+DEBUG (Brute Force) 48
+DEBUG (divide)0 2
+Index of 0 -52 -65
+Index of 1 -56 -42
+Index of 2 -56 -12
+
+
+DEBUG (Brute Force) 54
+DEBUG else: 48 54
+DEBUG else: 23 48
+DEBUG (divide)0 10
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+Index of 3 -68 -70
+Index of 4 -72 -77
+Index of 5 -73 -70
+Index of 6 -79 -18
+Index of 7 -81 -25
+Index of 8 -81 -28
+Index of 9 -97 -97
+Index of 10 -99 -20
+
+
+DEBUG (divide)0 5
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+Index of 3 -68 -70
+Index of 4 -72 -77
+Index of 5 -73 -70
+
+
+DEBUG (divide)0 2
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+
+
+DEBUG (Brute Force) 58
+DEBUG (divide)0 2
+Index of 0 -68 -70
+Index of 1 -72 -77
+Index of 2 -73 -70
+
+
+DEBUG (Brute Force) 71
+DEBUG else: 58 71
+DEBUG (divide)0 5
+Index of 0 -79 -18
+Index of 1 -81 -25
+Index of 2 -81 -28
+Index of 3 -97 -97
+Index of 4 -99 -20
+Index of 5 -1273778888 21909
+
+
+DEBUG (divide)0 2
+Index of 0 -79 -18
+Index of 1 -81 -25
+Index of 2 -81 -28
+
+
+DEBUG (Brute Force) 120
+DEBUG (divide)0 2
+Index of 0 -97 -97
+Index of 1 -99 -20
+Index of 2 -1273778888 21909
+
+
+DEBUG (Brute Force) 127
+DEBUG else: 120 127
+DEBUG else: 58 120
+DEBUG else (sovle): 23 58
+DEBUG (solve): 0 10 21
+DEBUG (divide)0 10
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+Index of 3 -24 -61
+Index of 4 -24 -28
+Index of 5 -32 -29
+Index of 6 -38 -98
+Index of 7 -44 -71
+Index of 8 -44 -79
+Index of 9 -52 -65
+Index of 10 -56 -42
+
+
+DEBUG (divide)0 5
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+Index of 3 -24 -61
+Index of 4 -24 -28
+Index of 5 -32 -29
+
+
+DEBUG (divide)0 2
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+
+
+DEBUG (Brute Force) 36
+DEBUG (divide)0 2
+Index of 0 -24 -61
+Index of 1 -24 -28
+Index of 2 -32 -29
+
+
+DEBUG (Brute Force) 31
+DEBUG else: 36 31
+DEBUG (divide)0 5
+Index of 0 -38 -98
+Index of 1 -44 -71
+Index of 2 -44 -79
+Index of 3 -52 -65
+Index of 4 -56 -42
+Index of 5 -56 -12
+
+
+DEBUG (divide)0 2
+Index of 0 -38 -98
+Index of 1 -44 -71
+Index of 2 -44 -79
+
+
+DEBUG (Brute Force) 88
+DEBUG (divide)0 2
+Index of 0 -52 -65
+Index of 1 -56 -42
+Index of 2 -56 -12
+
+
+DEBUG (Brute Force) 41
+DEBUG else: 88 41
+DEBUG else: 31 41
+DEBUG (divide)0 10
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+Index of 3 -68 -70
+Index of 4 -72 -77
+Index of 5 -73 -70
+Index of 6 -79 -18
+Index of 7 -81 -25
+Index of 8 -81 -28
+Index of 9 -97 -97
+Index of 10 -99 -20
+
+
+DEBUG (divide)0 5
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+Index of 3 -68 -70
+Index of 4 -72 -77
+Index of 5 -73 -70
+
+
+DEBUG (divide)0 2
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+
+
+DEBUG (Brute Force) 41
+DEBUG (divide)0 2
+Index of 0 -68 -70
+Index of 1 -72 -77
+Index of 2 -73 -70
+
+
+DEBUG (Brute Force) 111
+DEBUG else: 41 111
+DEBUG (divide)0 5
+Index of 0 -79 -18
+Index of 1 -81 -25
+Index of 2 -81 -28
+Index of 3 -97 -97
+Index of 4 -99 -20
+Index of 5 -1273778888 21909
+
+
+DEBUG (divide)0 2
+Index of 0 -79 -18
+Index of 1 -81 -25
+Index of 2 -81 -28
+
+
+DEBUG (Brute Force) 70
+DEBUG (divide)0 2
+Index of 0 -97 -97
+Index of 1 -99 -20
+Index of 2 -1273778888 21909
+
+
+DEBUG (Brute Force) 92
+DEBUG else: 70 92
+DEBUG else: 41 70
+DEBUG else (sovle): 31 41
+DEBUG (solve): 0 10 21
+DEBUG (divide)0 10
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+Index of 3 -24 -61
+Index of 4 -24 -28
+Index of 5 -32 -29
+Index of 6 -38 -98
+Index of 7 -44 -71
+Index of 8 -44 -79
+Index of 9 -52 -65
+Index of 10 -56 -42
+
+
+DEBUG (divide)0 5
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+Index of 3 -24 -61
+Index of 4 -24 -28
+Index of 5 -32 -29
+
+
+DEBUG (divide)0 2
+Index of 0 -6 -15
+Index of 1 -11 -79
+Index of 2 -23 -80
+
+
+DEBUG (Brute Force) 42
+DEBUG (divide)0 2
+Index of 0 -24 -61
+Index of 1 -24 -28
+Index of 2 -32 -29
+
+
+DEBUG (Brute Force) 22
+DEBUG else: 42 22
+DEBUG (divide)0 5
+Index of 0 -38 -98
+Index of 1 -44 -71
+Index of 2 -44 -79
+Index of 3 -52 -65
+Index of 4 -56 -42
+Index of 5 -56 -12
+
+
+DEBUG (divide)0 2
+Index of 0 -38 -98
+Index of 1 -44 -71
+Index of 2 -44 -79
+
+
+DEBUG (Brute Force) 28
+DEBUG (divide)0 2
+Index of 0 -52 -65
+Index of 1 -56 -42
+Index of 2 -56 -12
+
+
+DEBUG (Brute Force) 29
+DEBUG else: 28 29
+DEBUG else: 22 28
+DEBUG (divide)0 10
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+Index of 3 -68 -70
+Index of 4 -72 -77
+Index of 5 -73 -70
+Index of 6 -79 -18
+Index of 7 -81 -25
+Index of 8 -81 -28
+Index of 9 -97 -97
+Index of 10 -99 -20
+
+
+DEBUG (divide)0 5
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+Index of 3 -68 -70
+Index of 4 -72 -77
+Index of 5 -73 -70
+
+
+DEBUG (divide)0 2
+Index of 0 -56 -12
+Index of 1 -56 -69
+Index of 2 -68 -11
+
+
+DEBUG (Brute Force) 38
+DEBUG (divide)0 2
+Index of 0 -68 -70
+Index of 1 -72 -77
+Index of 2 -73 -70
+
+
+DEBUG (Brute Force) 51
+DEBUG else: 38 51
+DEBUG (divide)0 5
+Index of 0 -79 -18
+Index of 1 -81 -25
+Index of 2 -81 -28
+Index of 3 -97 -97
+Index of 4 -99 -20
+Index of 5 -1273778888 21909
+
+
+DEBUG (divide)0 2
+Index of 0 -79 -18
+Index of 1 -81 -25
+Index of 2 -81 -28
+
+
+DEBUG (Brute Force) 68
+DEBUG (divide)0 2
+Index of 0 -97 -97
+Index of 1 -99 -20
+Index of 2 -1273778888 21909
+
+
+DEBUG (Brute Force) 94
+DEBUG else: 68 94
+DEBUG else: 38 68
+DEBUG else (sovle): 22 38
