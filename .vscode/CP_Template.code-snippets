@@ -1,0 +1,90 @@
+{
+	"Competitive Programming Template": {
+		"scope": "cpp",
+		"prefix": "cp",
+		"body": [
+		  "#include <bits/stdc++.h>",
+		  "using namespace std;",
+		  "",
+		  "void solve();",
+		  "",
+		  "int main() {",
+		  "    $0",
+		  "    return 0;",
+		  "}",
+		  "",
+		  "void solve() {",
+		  "",
+		  "}"
+		],
+		"description": "Competitive Programming Template"
+	  },
+	"fio": {
+		"scope": "cpp",
+		"prefix": "fio",
+		"body": [
+			"ios::sync_with_stdio(0);cin.tie(0);cout.tie(0);"
+		],
+		"description": "fast IO"
+	},
+	"fori": {
+		"scope": "cpp",
+		"prefix": "fri",
+		"body": [
+			"for (unsigned i = 0; i < $0; i++) "
+		],
+		"description": "for loop from 0 to n"
+	},
+	"fori2": {
+		"scope": "cpp",
+		"prefix": "fri2",
+		"body": [
+			"for (unsigned i = 0; i < $0; i++) {",
+			"",
+			"}"
+		],
+		"description": "for loop from 0 to n (block)"
+	},
+	"tc": {
+		"scope": "cpp",
+		"prefix": "tc",
+		"body": [
+			"unsigned short t;",
+			"cin >> t;",
+			"while (t--) solve();",
+		],
+		"description": "Create test case"
+	  },
+	"coutn": {
+		"scope": "cpp",
+		"prefix": "ctn",
+		"body": [
+		  "cout << $0 << '\\n';"
+		],
+		"description": "cout with newline at end"
+	  },
+	  "csn": {
+		"scope": "cpp",
+		"prefix": "csn",
+		"body": [
+		  "cout << \"$0\\n\";"
+		],
+		"description": "cout string with newline at end"
+	  },
+	  "cin": {
+		"scope": "cpp",
+		"prefix": "cin",
+		"body": [
+		  "cin >> $0;"
+		],
+		"description": "fast cin"
+	  },
+	  "us": {
+		"scope": "cpp",
+		"prefix": "us",
+		"body": [
+		  "unsigned short $0;"
+		],
+		"description": "fast unsigned short"
+	  }
+}
